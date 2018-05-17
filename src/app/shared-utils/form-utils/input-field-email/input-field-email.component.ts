@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./input-field-email.component.css']
 })
 export class InputFieldEmailComponent implements OnInit {
-
+  title : string;
   constructor() { }
 
   ngOnInit() {
+    this.title = "Rowan";
   }
 
 }
